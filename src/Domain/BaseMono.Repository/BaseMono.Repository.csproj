@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BaseMono.Entities\BaseMono.Entities.csproj" />
-    <ProjectReference Include="..\BaseMono.Repository.Contracts\BaseMono.Repository.Contracts.csproj" />
+    <ProjectReference Include="..\BaseMono.Contracts\BaseMono.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

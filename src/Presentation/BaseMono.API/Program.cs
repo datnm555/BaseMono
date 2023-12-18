@@ -1,11 +1,16 @@
 using BaseMono.API.Extensions;
 using Microsoft.AspNetCore.HttpOverrides;
+using NLog;
+using NLog.Web;
 
 var builder = WebApplication.CreateBuilder(args);
+
+LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 
 // Add services to the container.
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIisIntegration();
+builder.Services.ConfigureLoggerService();
 
 builder.Services.AddControllers();
 

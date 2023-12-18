@@ -1,5 +1,5 @@
 ﻿using System.Linq.Expressions;
-using BaseMono.Repository.Contracts;
+using BaseMono.Contracts;
 
 namespace BaseMono.Repository;
 

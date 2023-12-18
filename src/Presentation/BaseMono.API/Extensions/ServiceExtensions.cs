@@ -1,4 +1,7 @@
-﻿namespace BaseMono.API.Extensions;
+﻿using BaseMono.Contracts;
+using BaseMono.LoggerService.Manager;
+
+namespace BaseMono.API.Extensions;
 
 public static class ServiceExtensions
 {
@@ -10,9 +13,13 @@ public static class ServiceExtensions
         });
     }
 
-
     public static void ConfigureIisIntegration(this IServiceCollection serviceCollection)
     {
         serviceCollection.Configure<IISOptions>(options => { });
+    }
+
+    public static void ConfigureLoggerService(this IServiceCollection serviceCollection)
+    {
+        serviceCollection.AddSingleton<ILoggerManager, LoggerManager>();
     }
 }

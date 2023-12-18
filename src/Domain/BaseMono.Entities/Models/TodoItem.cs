@@ -1,6 +1,6 @@
 ﻿namespace BaseMono.Entities.Models
 {
-    public class TodoItem
+    public abstract class TodoItem
     {
         public int Id { get; set; }
     }
