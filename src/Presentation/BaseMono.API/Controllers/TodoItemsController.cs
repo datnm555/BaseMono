@@ -1,5 +1,5 @@
 ﻿using BaseMono.Repository.Abstraction;
-using BaseMono.Service.Contracts.Manager;
+using BaseMono.Service.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BaseMono.API.Controllers;

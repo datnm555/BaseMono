@@ -1,11 +1,14 @@
 ﻿using System.Text.Json;
 
-namespace BaseMono.Entities.ErrorModels
+namespace BaseMono.Entities.ErrorModels;
+
+public class ErrorDetail
 {
-    public class ErrorDetail
+    public int StatusCode { get; set; }
+    public string? Message { get; set; }
+
+    public override string ToString()
     {
-        public int StatusCode { get; set; }
-        public string? Message { get; set; }
-        public override string ToString() => JsonSerializer.Serialize(this);
+        return JsonSerializer.Serialize(this);
     }
 }

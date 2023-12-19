@@ -7,8 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Domain\BaseMono.Entities\BaseMono.Entities.csproj" />
-      <ProjectReference Include="..\..\Infrastructure\BaseMono.Shared\BaseMono.Shared.csproj" />
+        <ProjectReference Include="..\..\Infrastructure\BaseMono.Shared\BaseMono.Shared.csproj"/>
     </ItemGroup>
 
 </Project>

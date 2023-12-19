@@ -7,13 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="NLog" Version="5.2.7" />
-      <PackageReference Include="NLog.Extensions.Logging" Version="5.3.7" />
-      <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.7" />
+        <PackageReference Include="NLog" Version="5.2.7"/>
+        <PackageReference Include="NLog.Extensions.Logging" Version="5.3.7"/>
+        <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.7"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Domain\BaseMono.Repository.Abstraction\BaseMono.Repository.Abstraction.csproj" />
+        <ProjectReference Include="..\..\Domain\BaseMono.Repository.Abstraction\BaseMono.Repository.Abstraction.csproj"/>
     </ItemGroup>
 
 </Project>

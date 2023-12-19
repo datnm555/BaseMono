@@ -7,13 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Domain\BaseMono.Repository.Abstraction\BaseMono.Repository.Abstraction.csproj" />
-      <ProjectReference Include="..\..\Infrastructure\BaseMono.Shared\BaseMono.Shared.csproj" />
-      <ProjectReference Include="..\BaseMono.Service.Contracts\BaseMono.Service.Contracts.csproj" />
+        <ProjectReference Include="..\..\Domain\BaseMono.Repository.Abstraction\BaseMono.Repository.Abstraction.csproj"/>
+        <ProjectReference Include="..\..\Infrastructure\BaseMono.Shared\BaseMono.Shared.csproj"/>
+        <ProjectReference Include="..\BaseMono.Service.Contracts\BaseMono.Service.Contracts.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1"/>
     </ItemGroup>
 
 </Project>

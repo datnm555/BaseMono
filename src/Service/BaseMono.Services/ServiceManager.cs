@@ -1,10 +1,9 @@
 ﻿using AutoMapper;
 using BaseMono.Repository.Abstraction;
 using BaseMono.Service.Contracts;
-using BaseMono.Service.Contracts.Manager;
 using BaseMono.Services.Implements;
 
-namespace BaseMono.Services.Manager;
+namespace BaseMono.Services;
 
 public class ServiceManager : IServiceManager
 {

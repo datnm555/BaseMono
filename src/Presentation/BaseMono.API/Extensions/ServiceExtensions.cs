@@ -1,9 +1,8 @@
 ﻿using BaseMono.LoggerService.Manager;
 using BaseMono.Repository;
 using BaseMono.Repository.Abstraction;
-using BaseMono.Repository.Manager;
-using BaseMono.Service.Contracts.Manager;
-using BaseMono.Services.Manager;
+using BaseMono.Service.Contracts;
+using BaseMono.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace BaseMono.API.Extensions;

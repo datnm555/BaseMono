@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using BaseMono.Repository.Abstraction;
 using BaseMono.Entities.Exceptions;
+using BaseMono.Repository.Abstraction;
 using BaseMono.Service.Contracts;
 using BaseMono.Shared.Dtos.TodoItem;
 
@@ -8,9 +8,9 @@ namespace BaseMono.Services.Implements;
 
 public class TodoItemService : ITodoItemService
 {
-    private readonly IRepositoryManager _repositoryManager;
     private readonly ILoggerManager _logger;
     private readonly IMapper _mapper;
+    private readonly IRepositoryManager _repositoryManager;
 
     public TodoItemService(IRepositoryManager repositoryManager, ILoggerManager logger, IMapper mapper)
     {
@@ -24,7 +24,7 @@ public class TodoItemService : ITodoItemService
         try
         {
             throw new NotFoundException("Test");
-            var todoItems =await _repositoryManager.TodoItemRepository.GetAllTodoItemsAsync(trackChanges);
+            var todoItems = await _repositoryManager.TodoItemRepository.GetAllTodoItemsAsync(trackChanges);
             return _mapper.Map<IEnumerable<TodoItemDto>>(todoItems);
         }
         catch (Exception e)

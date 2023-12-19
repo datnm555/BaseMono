@@ -7,10 +7,6 @@ public class LoggerManager : ILoggerManager
 {
     private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
 
-    public LoggerManager()
-    {
-    }
-
     public void LogInfo(string message)
     {
         Logger.Info(message);

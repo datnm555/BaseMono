@@ -1,5 +1,4 @@
-﻿using System.Net;
-using BaseMono.Entities.ErrorModels;
+﻿using BaseMono.Entities.ErrorModels;
 using BaseMono.Entities.Exceptions;
 using BaseMono.Repository.Abstraction;
 using Microsoft.AspNetCore.Diagnostics;

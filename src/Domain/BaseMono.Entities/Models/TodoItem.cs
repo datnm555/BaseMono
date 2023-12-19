@@ -1,9 +1,8 @@
-﻿namespace BaseMono.Entities.Models
-{
-    public class TodoItem
-    {
-        public Guid Id { get; set; }
+﻿namespace BaseMono.Entities.Models;
 
-        public string? Name { get; set; }
-    }
+public class TodoItem
+{
+    public Guid Id { get; set; }
+
+    public string? Name { get; set; }
 }

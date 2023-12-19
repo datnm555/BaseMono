@@ -1,4 +1,4 @@
-﻿namespace BaseMono.Service.Contracts.Manager;
+﻿namespace BaseMono.Service.Contracts;
 
 public interface IServiceManager
 {

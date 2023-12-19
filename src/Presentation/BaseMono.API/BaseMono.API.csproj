@@ -7,20 +7,20 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.25" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.25"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.25">
-          <PrivateAssets>all</PrivateAssets>
-          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.25" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.25"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Domain\BaseMono.Repository\BaseMono.Repository.csproj" />
-      <ProjectReference Include="..\..\Infrastructure\BaseMono.LoggerService\BaseMono.LoggerService.csproj" />
-      <ProjectReference Include="..\..\Service\BaseMono.Service.Contracts\BaseMono.Service.Contracts.csproj" />
-      <ProjectReference Include="..\..\Service\BaseMono.Services\BaseMono.Services.csproj" />
+        <ProjectReference Include="..\..\Domain\BaseMono.Repository\BaseMono.Repository.csproj"/>
+        <ProjectReference Include="..\..\Infrastructure\BaseMono.LoggerService\BaseMono.LoggerService.csproj"/>
+        <ProjectReference Include="..\..\Service\BaseMono.Service.Contracts\BaseMono.Service.Contracts.csproj"/>
+        <ProjectReference Include="..\..\Service\BaseMono.Services\BaseMono.Services.csproj"/>
     </ItemGroup>
 
 </Project>
