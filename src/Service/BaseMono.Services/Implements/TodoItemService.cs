@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using BaseMono.Contracts;
+using BaseMono.Repository.Abstraction;
 using BaseMono.Entities.Exceptions;
 using BaseMono.Service.Contracts;
 using BaseMono.Shared.Dtos.TodoItem;

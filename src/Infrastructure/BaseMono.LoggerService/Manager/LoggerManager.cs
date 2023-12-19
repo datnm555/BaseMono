@@ -1,4 +1,4 @@
-﻿using BaseMono.Contracts;
+﻿using BaseMono.Repository.Abstraction;
 using NLog;
 
 namespace BaseMono.LoggerService.Manager;

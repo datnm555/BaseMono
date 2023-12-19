@@ -1,4 +1,4 @@
-﻿namespace BaseMono.Contracts;
+﻿namespace BaseMono.Repository.Abstraction;
 
 public interface IRepositoryManager
 {

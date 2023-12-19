@@ -1,5 +1,5 @@
 using BaseMono.API.Extensions;
-using BaseMono.Contracts;
+using BaseMono.Repository.Abstraction;
 using NLog;
 using NLog.Web;
 

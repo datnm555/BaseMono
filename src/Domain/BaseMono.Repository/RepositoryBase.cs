@@ -1,5 +1,5 @@
 ﻿using System.Linq.Expressions;
-using BaseMono.Contracts;
+using BaseMono.Repository.Abstraction;
 using Microsoft.EntityFrameworkCore;
 
 namespace BaseMono.Repository;

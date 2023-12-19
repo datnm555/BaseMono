@@ -1,4 +1,4 @@
-﻿using BaseMono.Contracts;
+﻿using BaseMono.Repository.Abstraction;
 using BaseMono.Repository.Implements;
 
 namespace BaseMono.Repository.Manager

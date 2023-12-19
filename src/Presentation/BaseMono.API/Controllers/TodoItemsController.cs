@@ -1,4 +1,4 @@
-﻿using BaseMono.Contracts;
+﻿using BaseMono.Repository.Abstraction;
 using BaseMono.Service.Contracts.Manager;
 using Microsoft.AspNetCore.Mvc;
 

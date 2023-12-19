@@ -1,6 +1,6 @@
-﻿using BaseMono.Contracts;
-using BaseMono.LoggerService.Manager;
+﻿using BaseMono.LoggerService.Manager;
 using BaseMono.Repository;
+using BaseMono.Repository.Abstraction;
 using BaseMono.Repository.Manager;
 using BaseMono.Service.Contracts.Manager;
 using BaseMono.Services.Manager;

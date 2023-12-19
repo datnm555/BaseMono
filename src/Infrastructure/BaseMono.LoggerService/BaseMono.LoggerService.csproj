@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Domain\BaseMono.Contracts\BaseMono.Contracts.csproj" />
+      <ProjectReference Include="..\..\Domain\BaseMono.Repository.Abstraction\BaseMono.Repository.Abstraction.csproj" />
     </ItemGroup>
 
 </Project>

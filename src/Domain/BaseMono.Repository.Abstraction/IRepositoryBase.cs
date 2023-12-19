@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace BaseMono.Contracts
+namespace BaseMono.Repository.Abstraction
 {
     public interface IRepositoryBase<T>
     {
