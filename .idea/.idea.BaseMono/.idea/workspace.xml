@@ -8,31 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6f5a61b-7732-4b5c-aad6-5e31b0e3668c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Contracts/IRepositoryManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Contracts/ITodoItemRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Repository/Configuration/TodoItemConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Repository/Implements/TodoItemRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/BaseMono.Service.Contracts/ITodoItemService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/BaseMono.Service.Contracts/Manager/IServiceManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/BaseMono.Services/Implements/TodoItemService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/BaseMono.Services/Manager/ServiceManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseMono/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseMono/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseMono.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BaseMono.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Contracts/BaseMono.Contracts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Contracts/BaseMono.Contracts.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Contracts/IRepositoryBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Contracts/IRepositoryBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Entities/Models/TodoItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Entities/Models/TodoItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Entities/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Entities/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Repository/BaseMono.Repository.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Repository/BaseMono.Repository.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Repository/Manager/RepositoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Repository/Manager/RepositoryManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Repository/RepositoryBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Repository/RepositoryBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Repository/RepositoryContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Repository/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/BaseMono.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/BaseMono.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/ContextFactory/RepositoryContextFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/ContextFactory/RepositoryContextFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Controllers/Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Controllers/TodoItemsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Extensions/ServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Extensions/ServiceExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/appsettings.json" afterDir="false" />
+    <list default="true" id="b6f5a61b-7732-4b5c-aad6-5e31b0e3668c" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Controllers/TodoItemsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Controllers/TodoItemsController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +108,7 @@
       <updated>1702633829714</updated>
       <workItem from="1702633834403" duration="617000" />
       <workItem from="1702890046563" duration="13728000" />
-      <workItem from="1702970151204" duration="3758000" />
+      <workItem from="1702970151204" duration="4384000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -141,7 +118,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702900413125</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init lazy and demo manager">
+      <option name="closed" value="true" />
+      <created>1702974623299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702974623299</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1702974641086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702974641086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +144,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="init lazy and demo manager" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BaseMono.API.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class TodoItemsController : ControllerBase
 {
     private readonly ILoggerManager _logger;
