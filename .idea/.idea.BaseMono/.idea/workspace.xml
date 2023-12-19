@@ -8,8 +8,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6f5a61b-7732-4b5c-aad6-5e31b0e3668c" name="Changes" comment="init">
+    <list default="true" id="b6f5a61b-7732-4b5c-aad6-5e31b0e3668c" name="Changes" comment="update ignore">
+      <change afterPath="$PROJECT_DIR$/src/Infrastructure/BaseMono.Shared/Dtos/TodoItem/TodoItemDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Extensions/ExceptionMiddlewareExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Profiles/MappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseMono/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseMono/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseMono.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BaseMono.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Contracts/ITodoItemRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Contracts/ITodoItemRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Entities/ErrorModels/ErrorDetail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Entities/ErrorModels/ErrorDetail.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Entities/Exceptions/BadRequestException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Entities/Exceptions/BadRequestException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Entities/Exceptions/NotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Entities/Exceptions/NotFoundException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Entities/Models/TodoItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Entities/Models/TodoItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/BaseMono.Repository/Implements/TodoItemRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/BaseMono.Repository/Implements/TodoItemRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/ContextFactory/RepositoryContextFactory.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Controllers/TodoItemsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Controllers/TodoItemsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Extensions/ServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Extensions/ServiceExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Migrations/RepositoryContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Migrations/RepositoryContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/BaseMono.API/nlog.config" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/BaseMono.API/nlog.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/BaseMono.Service.Contracts/BaseMono.Service.Contracts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/BaseMono.Service.Contracts/BaseMono.Service.Contracts.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/BaseMono.Service.Contracts/ITodoItemService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/BaseMono.Service.Contracts/ITodoItemService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/BaseMono.Services/BaseMono.Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/BaseMono.Services/BaseMono.Services.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/BaseMono.Services/Implements/TodoItemService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/BaseMono.Services/Implements/TodoItemService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/BaseMono.Services/Manager/ServiceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/BaseMono.Services/Manager/ServiceManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +49,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82b66c467b86432b9c261f1fbb0de2e04908/fe/1cbd74c5/IServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/975bf429da2a47c2b8081c008d18db0b40600/9b/ee5a5f40/Profile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b933b730307944938efbd591f88b8fb53200/f7/e942168a/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eea8c96cd73b41f8b8a7231f0683dee3c16a0/f2/8b2710d4/Controller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5330988bfaacf93f15e30f9b3dd6018a768f89da3b38d874fda77299c62164/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mydat/OneDrive/Desktop/Mine/base-mono/BaseMono/src/Presentation/BaseMono.API/Controllers/TodoItemsController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -108,7 +132,7 @@
       <updated>1702633829714</updated>
       <workItem from="1702633834403" duration="617000" />
       <workItem from="1702890046563" duration="13728000" />
-      <workItem from="1702970151204" duration="4384000" />
+      <workItem from="1702970151204" duration="12217000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -134,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702974641086</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update ignore">
+      <option name="closed" value="true" />
+      <created>1702981436168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702981436168</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +178,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="init lazy and demo manager" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="update ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ignore" />
   </component>
 </project>

@@ -18,9 +18,9 @@ public class TodoItemsController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult GetTodoItems()
+    public async Task<IActionResult> GetAllTodoItemsAsync()
     {
-        var todoItems = _serviceManager.TodoItemService.GetAllTodoItems(false);
+        var todoItems = await _serviceManager.TodoItemService.GetAllTodoItemsAsync(false);
         return Ok(todoItems);
     }
 }

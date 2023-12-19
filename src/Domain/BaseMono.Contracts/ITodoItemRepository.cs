@@ -4,5 +4,5 @@ namespace BaseMono.Contracts;
 
 public interface ITodoItemRepository
 {
-    IEnumerable<TodoItem> GetAllTodoItems(bool trackChanges);
+    Task<IEnumerable<TodoItem>> GetAllTodoItemsAsync(bool trackChanges);
 }

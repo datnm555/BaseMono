@@ -1,8 +1,8 @@
-﻿using BaseMono.Entities.Models;
+﻿using BaseMono.Shared.Dtos.TodoItem;
 
 namespace BaseMono.Service.Contracts;
 
 public interface ITodoItemService
 {
-    IEnumerable<TodoItem> GetAllTodoItems(bool trackChanges);
+    Task<IEnumerable<TodoItemDto>> GetAllTodoItemsAsync(bool trackChanges);
 }

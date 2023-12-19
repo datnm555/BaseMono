@@ -2,7 +2,7 @@
 
 namespace BaseMono.Entities.ErrorModels
 {
-    internal class ErrorDetail
+    public class ErrorDetail
     {
         public int StatusCode { get; set; }
         public string? Message { get; set; }

@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseMono.Service.Contracts"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseMono.Services", "src\Service\BaseMono.Services\BaseMono.Services.csproj", "{79198746-9107-4AF0-B905-2055251B5A90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseMono.Shared", "src\Infrastructure\BaseMono.Shared\BaseMono.Shared.csproj", "{616801FD-0294-4D3C-9D68-DFCFF6592CFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{79198746-9107-4AF0-B905-2055251B5A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79198746-9107-4AF0-B905-2055251B5A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79198746-9107-4AF0-B905-2055251B5A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616801FD-0294-4D3C-9D68-DFCFF6592CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616801FD-0294-4D3C-9D68-DFCFF6592CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616801FD-0294-4D3C-9D68-DFCFF6592CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616801FD-0294-4D3C-9D68-DFCFF6592CFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +83,7 @@ Global
 		{425E4256-1C2E-4DDE-9995-350AD733B905} = {E66946C4-A9EE-4EF9-8F74-E26C83B2B9FD}
 		{74F64538-C100-4075-9D4D-A8816CFECC76} = {47FAFA0A-36FF-43F5-8ED7-E9A492F16125}
 		{79198746-9107-4AF0-B905-2055251B5A90} = {47FAFA0A-36FF-43F5-8ED7-E9A492F16125}
+		{616801FD-0294-4D3C-9D68-DFCFF6592CFF} = {E66946C4-A9EE-4EF9-8F74-E26C83B2B9FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13392070-8E6A-437F-BC1C-4AEBE1AF5B8E}

@@ -1,5 +1,6 @@
 ﻿using BaseMono.Contracts;
 using BaseMono.Entities.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BaseMono.Repository.Implements;
 
@@ -9,8 +10,6 @@ public class TodoItemRepository : RepositoryBase<TodoItem>, ITodoItemRepository
     {
     }
 
-    public IEnumerable<TodoItem> GetAllTodoItems(bool trackChanges) =>
-        FindAll(trackChanges)
-            .OrderBy(c => c.Id)
-            .ToList();
+    public async Task<IEnumerable<TodoItem>> GetAllTodoItemsAsync(bool trackChanges) =>
+        await FindAll(trackChanges).OrderBy(c => c.Id).ToListAsync();
 }

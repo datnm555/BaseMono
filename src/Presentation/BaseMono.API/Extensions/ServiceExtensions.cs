@@ -42,7 +42,9 @@ public static class ServiceExtensions
     {
         serviceCollection.AddDbContext<ApplicationDbContext>(builder =>
         {
-            builder.UseSqlServer(configuration.GetConnectionString("sqlConnection"));
+            builder.UseSqlServer(
+                configuration.GetConnectionString("sqlConnection"),
+                optionsBuilder => optionsBuilder.MigrationsAssembly("BaseMono.API"));
         });
     }
 }
