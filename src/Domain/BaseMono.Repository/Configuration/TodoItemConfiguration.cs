@@ -11,7 +11,8 @@ public class TodoItemConfiguration : IEntityTypeConfiguration<TodoItem>
         builder.HasData(
             new TodoItem
             {
-                Id = Guid.NewGuid()
+                Id = Guid.NewGuid(),
+                Name = "Sample"
             }
         );
     }

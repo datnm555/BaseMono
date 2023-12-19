@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
@@ -14,6 +14,7 @@
 
     <ItemGroup>
         <ProjectReference Include="..\..\Domain\BaseMono.Contracts\BaseMono.Contracts.csproj"/>
+        <ProjectReference Include="..\..\Domain\BaseMono.Repository.Abstraction\BaseMono.Repository.Abstraction.csproj"/>
         <ProjectReference Include="..\BaseMono.DapperRepository.Abstraction\BaseMono.DapperRepository.Abstraction.csproj"/>
     </ItemGroup>
 

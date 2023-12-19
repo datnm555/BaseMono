@@ -14,5 +14,8 @@ public class DapperDbContext
         _configuration = configuration;
     }
 
-    public DbConnection CreateConnection() => new SqlConnection(_configuration.GetConnectionString("sqlConnection"));
+    public DbConnection CreateConnection()
+    {
+        return new SqlConnection(_configuration.GetConnectionString("sqlConnection"));
+    }
 }

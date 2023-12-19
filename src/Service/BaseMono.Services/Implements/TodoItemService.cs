@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using BaseMono.Entities.Exceptions;
 using BaseMono.Repository.Abstraction;
 using BaseMono.Service.Contracts;
 using BaseMono.Shared.Dtos.TodoItem;
@@ -23,7 +22,6 @@ public class TodoItemService : ITodoItemService
     {
         try
         {
-            throw new NotFoundException("Test");
             var todoItems = await _repositoryManager.TodoItemRepository.GetAllTodoItemsAsync(trackChanges);
             return _mapper.Map<IEnumerable<TodoItemDto>>(todoItems);
         }
