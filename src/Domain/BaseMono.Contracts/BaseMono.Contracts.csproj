@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BaseMono.Entities\BaseMono.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

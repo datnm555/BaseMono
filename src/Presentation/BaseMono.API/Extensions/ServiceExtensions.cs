@@ -1,5 +1,10 @@
 ﻿using BaseMono.Contracts;
 using BaseMono.LoggerService.Manager;
+using BaseMono.Repository;
+using BaseMono.Repository.Manager;
+using BaseMono.Service.Contracts.Manager;
+using BaseMono.Services.Manager;
+using Microsoft.EntityFrameworkCore;
 
 namespace BaseMono.API.Extensions;
 
@@ -21,5 +26,23 @@ public static class ServiceExtensions
     public static void ConfigureLoggerService(this IServiceCollection serviceCollection)
     {
         serviceCollection.AddSingleton<ILoggerManager, LoggerManager>();
+    }
+
+    public static void ConfigureRepositoryManager(this IServiceCollection serviceCollection)
+    {
+        serviceCollection.AddScoped<IRepositoryManager, RepositoryManager>();
+    }
+
+    public static void ConfigureServiceManager(this IServiceCollection serviceCollection)
+    {
+        serviceCollection.AddScoped<IServiceManager, ServiceManager>();
+    }
+
+    public static void ConfigureSqlContext(this IServiceCollection serviceCollection, IConfiguration configuration)
+    {
+        serviceCollection.AddDbContext<ApplicationDbContext>(builder =>
+        {
+            builder.UseSqlServer(configuration.GetConnectionString("sqlConnection"));
+        });
     }
 }

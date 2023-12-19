@@ -1,39 +1,32 @@
 ﻿using System.Linq.Expressions;
 using BaseMono.Contracts;
+using Microsoft.EntityFrameworkCore;
 
 namespace BaseMono.Repository;
 
 public class RepositoryBase<T> : IRepositoryBase<T> where T : class
 {
-    protected RepositoryContext RepositoryContext;
+    private readonly ApplicationDbContext _applicationDbContext;
 
-    public RepositoryBase(RepositoryContext repositoryContext)
+    protected RepositoryBase(ApplicationDbContext applicationDbContext)
     {
-        RepositoryContext = repositoryContext;
+        _applicationDbContext = applicationDbContext;
     }
 
-    public IQueryable<T> FindAll(bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public IQueryable<T> FindAll(bool trackChanges) =>
+        trackChanges ? _applicationDbContext.Set<T>() : _applicationDbContext.Set<T>().AsNoTracking();
 
     public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+        => trackChanges
+            ? _applicationDbContext.Set<T>().Where(expression)
+            : _applicationDbContext.Set<T>().Where(expression).AsNoTracking();
 
     public void Create(T entity)
-    {
-        throw new NotImplementedException();
-    }
+        => _applicationDbContext.Set<T>().Add(entity);
 
     public void Update(T entity)
-    {
-        throw new NotImplementedException();
-    }
+        => _applicationDbContext.Set<T>().Update(entity);
 
     public void Delete(T entity)
-    {
-        throw new NotImplementedException();
-    }
+        => _applicationDbContext.Set<T>().Remove(entity);
 }

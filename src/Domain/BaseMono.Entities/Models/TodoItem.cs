@@ -1,7 +1,7 @@
 ﻿namespace BaseMono.Entities.Models
 {
-    public abstract class TodoItem
+    public class TodoItem
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
     }
 }

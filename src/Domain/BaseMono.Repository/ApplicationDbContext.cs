@@ -1,12 +1,12 @@
 ﻿using BaseMono.Entities.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using BaseMono.Repository.Configuration;
 using Microsoft.EntityFrameworkCore;
 
 namespace BaseMono.Repository;
 
-public class RepositoryContext : DbContext
+public class ApplicationDbContext : DbContext
 {
-    public RepositoryContext(DbContextOptions options) : base(options)
+    public ApplicationDbContext(DbContextOptions options) : base(options)
     {
     }
 
@@ -14,6 +14,8 @@ public class RepositoryContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
+        builder.ApplyConfiguration(new TodoItemConfiguration());
+
         base.OnModelCreating(builder);
     }
 }
